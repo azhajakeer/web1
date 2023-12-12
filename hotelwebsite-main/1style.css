@@ -1,0 +1,165 @@
+
+
+*{  box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+.bgMain{
+    z-index: -1;
+    position: fixed;
+}
+.background-clip{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+    background-color:black ;
+}
+.logo{
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;}
+    
+   
+
+
+
+nav{
+    background-color: rgb(0, 0, 0,0.4);
+   
+    
+}
+.nav_links{
+    list-style:none;
+    float:right;
+    padding-top: 40px;
+    position: relative;
+}
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+
+    
+.main{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+  opacity: 0.5;
+  }
+  .h1{
+    color:rgb(131, 73, 107) ;
+    justify-content: center;
+    text-align: center;
+} 
+.dis1{
+    justify-content:center;
+    color:rgb(54, 3, 34);
+    background-color:whitesmoke;
+    opacity:0.5;
+    padding-left: 5px;
+    width: 400px;
+    opacity: 0.5;
+    text-align: center;
+}      
+.sec{
+    justify-content: center;
+    background-color:black;
+    opacity: 0.5;
+    color:aliceblue;
+    padding-right: 50px;
+    width: 400px;
+    text-align: center;
+    margin-right: auto;
+     margin-left: 1100px;
+     margin-bottom:80px;
+     
+}
+
+.side{
+height: auto;
+margin-top: 210px;
+opacity: 1;
+ padding:5px;
+top:0;
+width: 350px;
+position: absolute;
+right: 0;
+padding: 5px;
+border: 1px solid #ddd;
+border-radius: 4px;
+  
+
+}
+
+        .footernav ul li a{
+            color:#ddd;
+            margin:20px;
+            text-decoration:none;
+        }
+        .footernav ul{
+            display:flex;
+            justify-content: right;
+            list-style: none;
+            
+        }
+        .footerbottom{
+            padding: 20px;
+            text-align:end;
+            justify-content: right;
+            background-color: antiquewhite;
+            opacity: 0.5;
+            bottom: 0%;
+        }
+
+
+   
+ 
+
+.glowing-text {
+    font-size: 36px;
+    color: #fff; /* Text color */
+    text-align: center;
+    animation: glowing 1.5s infinite alternate; /* Add the glowing animation */
+}
+
+@keyframes glowing {
+    0% {
+        text-shadow: 0 0 10px rgb(21, 196, 199); /* Initial shadow color */
+    }
+    100% {
+        text-shadow: 0 0 20px rgb(103, 79, 199), 0 0 30px rgb(7, 247, 139); /* Glowing effect with multiple shadows */
+    }
+}
+.marq{
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+   .logo,.nav,.nav_links,.nav_links,.nav_links li,.main,.h1,.dis1,.sec,.side, .footernav ul li a,.footerbottom,.glowing-text,.marq{max-width: 100%; 
+        height:auto;
+        
+    
+        
+    }
+    
+
+}
+@media screen and (max-width: 768px) {.bgMain,.background-clip{max-width: 100%; 
+    height:auto;
+    position: absolute;
+    padding-top: 50.25%; /* 16:9 aspect ratio (change this value based on your video's aspect ratio) */
+    height: 0;
+    overflow: hidden;
+}
+}

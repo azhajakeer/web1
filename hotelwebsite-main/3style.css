@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: whitesmoke;
+}
+input, select, button {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+form input, form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #161414;
+    border-radius: 3px;
+}
+form input:focus, form select:focus {
+    outline: 1px solid #ccc;
+}
+form button {
+    background-color: #9cf7a9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;} 
+    
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+table th {
+    background: #eee;
+}
+table tr:nth-child(even) {
+    background: #fff;
+}
+table tr:nth-child(odd) {
+    background: #fff;
+}
+
+/* nav bar*/
+.logo{
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;}
+    
+   
+
+
+  
+nav{
+    background-color: rgb(0, 0, 0,0.4);
+  
+}
+
+.nav_links{
+    list-style:none;
+    float:right;
+    padding-top: 40px;
+    position: relative;
+}
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+}
+
+    
+
+li,a,button{
+    font-family: "montserrat",sams-serif;
+    font-weight:500;
+    font-size: 18px;
+    color:brown;
+    text-decoration:none;}
+
+    .input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;}
+
+        input[type="submit"] {
+            background-color: #9cf7a9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;}     
+
+        input[type="text"],
+            select {
+                width: 590px;
+                color:black;
+                padding: 10px; /* Add padding for better visual appearance */
+                margin-bottom: 10px; 
+                border-radius: 4px;
+                /* Add margin for spacing between elements */
+            }
+
+             input[type="number"],
+            select {
+                width: 590px;
+                color:black;
+                padding: 10px; /* Add padding for better visual appearance */
+                margin-bottom: 10px; 
+                border-radius: 4px;
+                /* Add margin for spacing between elements */
+            }
+
+            input[type="email"],
+            select {
+                width: 590px;
+                color:black;
+                padding: 10px; /* Add padding for better visual appearance */
+                margin-bottom: 10px; 
+                border-radius: 4px;
+                /* Add margin for spacing between elements */
+            }
+
+            input[type="tel"],
+            select {
+                width: 590px;
+                color:black;
+                padding: 10px; /* Add padding for better visual appearance */
+                margin-bottom: 10px; 
+                border-radius: 4px;
+                /* Add margin for spacing between elements */
+            }
+
+
+            input[type="date"],
+            select {
+                width: 590px;
+                color:black;
+                padding: 10px; /* Add padding for better visual appearance */
+                margin-bottom: 10px; 
+                border-radius: 4px;
+                /* Add margin for spacing between elements */
+            }
+
+
+            .slct {
+                width: 615px;
+                color:black;
+                padding: 10px; /* Add padding for better visual appearance */
+                margin-bottom: 10px; 
+                border-radius: 4px;
+                /* Add margin for spacing between elements */
+            }
+
+
+
+          .btn2  {
+                background-color: #9cf7a9;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;}
+
+           
+            
+            .fdec{
+                background-color:rgb(247, 235, 235);
+                border:1px solid rgb(17, 17, 16);
+                border-radius: 10px;
+                padding:20px;
+                margin:20px;
+                max-width: 700px;
+                opacity: 0.7;
+            }
+
+
+
+
+
+.fom{background-image: url('bookingbg2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment:fixed;
+}
+
+.footcontainer{
+    margin-top:10%;
+  }
+  
+  
+.footernav ul li a{
+color:#ddd;
+margin:20px;
+text-decoration:none;
+}
+.footernav ul{
+display:flex;
+justify-content: right;
+list-style: none;
+
+}
+.footerbottom{
+padding: 20px;
+text-align:end;
+justify-content: right;
+background-color: antiquewhite;
+opacity: 0.5;
+bottom: 0%;
+}
+
+.footernav1 ul li a{
+color:#ddd;
+margin:20px;
+text-decoration:none;
+}
+.footernav1 ul{
+display:flex;
+justify-content: right;
+list-style: none;
+
+}
+.footerbottom1{
+padding: 20px;
+text-align:end;
+justify-content: right;
+background-color: antiquewhite;
+opacity: 0.5;
+bottom: 0%;}
+.footcontainer1{
+margin-top:40%;
+}
+
+
+@media screen and (max-width: 600px) {
+    input[type="text"],
+    select {
+        width: 100%;
+    }
+
+    input[type="number"],
+    select {
+        width: 100%;
+    }
+
+    input[type="email"],
+    select {
+        width: 100%;
+    }
+
+    input[type="tel"],
+    select {
+        width: 100%;
+    }
+
+    input[type="date"],
+    select {
+        width: 100%;
+    }
+
+    .slct {
+        width: 100%;
+    }
+
+    .btn2  {
+        width: 100%;
+    }
+
+    .fdec{
+        width: 100%;
+    }
+
+    .footcontainer{
+        width: 100%;
+    }
+
+    .footernav ul li a{
+        width: 100%;
+    }
+
+    .footerbottom{
+        width: 100%;
+    }
+    
+    .btn2  {
+        width: 100%;
+    }
+
+   
+
+    .form {
+        width: 100%;
+    }
+
+
+}

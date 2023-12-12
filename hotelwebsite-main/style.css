@@ -1,0 +1,396 @@
+*{  box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+/*home background*/
+.bgMain{
+    z-index: -1;
+    position: fixed;
+}
+.background-clip{
+    position: fixed;
+    width: 100%;
+    
+
+    bottom: 0;
+    z-index: -1;
+    background-color:black ;
+}
+/* nav bar*/
+.logo{
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;}
+    
+   
+
+
+  
+nav{
+    background-color: rgb(0, 0, 0,0.4);
+    
+  
+}
+
+.nav_links{
+    list-style:none;
+    float:right;
+    padding-top: 40px;
+    position: relative;
+}
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+}
+
+    
+
+li,a,button{
+    font-family: "montserrat",sams-serif;
+    font-weight:500;
+    font-size: 18px;
+    color:brown;
+    text-decoration:none;}
+
+    .input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;}
+  
+    
+        /*home  page*/
+    .intro{
+      text-align:center;
+      font-size: 18px;
+    }
+    
+        .main{
+       border:1px dotted white;
+      border-radius: 1px;
+      padding: 5px;
+      width: 400px;
+    
+      }
+      .h1{
+        color:rgb(191, 25, 25) ;
+        justify-content: center;
+        text-align: center;
+    } 
+    .home{
+      border-radius: 4px;
+      padding: 20px;
+      width: 200px;
+      border: 1px dotted ;
+      margin: 0;
+      
+      
+    }
+
+    .cent{
+      position: absolute;
+      left:30%;
+
+    }
+    .home2{
+      border: #0f0404 1px dotted;
+      border-radius: 4px;
+      padding:20px;
+      background-color: antiquewhite;
+      opacity: 0.5;
+    }
+    
+   .mid{
+    position: absolute;
+    left:80%;
+    top:40%;
+    
+    border-radius: 4px;
+      padding: 20px;
+      border: 1px solid;
+      background-color: antiquewhite;
+      opacity: 0.8;
+  
+    
+
+   }
+      
+/*order list*/
+   
+ .h3{
+  color:#0f0404
+ }
+ .help{
+  position: absolute;
+  left:500px;
+ }
+.help1{
+  position: absolute;
+  left: 1200px;
+  top: 270px;
+}
+  
+       
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        background-color:beige ;
+      }
+
+
+      /*footer*/
+      .footcontainer{
+        margin-top:10%;
+      }
+      
+      
+  .footernav ul li a{
+    color:#ddd;
+    margin:20px;
+    text-decoration:none;
+}
+.footernav ul{
+    display:flex;
+    justify-content: right;
+    list-style: none;
+    
+}
+.footerbottom{
+    padding: 20px;
+    text-align:end;
+    justify-content: right;
+    background-color: antiquewhite;
+    opacity: 0.5;
+    bottom: 0%;
+}
+/*home footer*/
+.footernav1 ul li a{
+  color:#ddd;
+  margin:20px;
+  text-decoration:none;
+}
+.footernav1 ul{
+  display:flex;
+  justify-content: right;
+  list-style: none;
+  
+}
+.footerbottom1{
+  padding: 20px;
+  text-align:end;
+  justify-content: right;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  bottom: 0%;}
+  .footcontainer1{
+    margin-top:40%;
+  }
+  
+  
+  /*BRANCHES*/
+    /* Three image containers */
+.co{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .ro::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .branch{
+    text-align: center;
+    text-decoration:solid;
+  }
+  .br1{
+    text-align: center;
+    font-size: 18px;
+  }
+  .br{
+    background-color: rgb(169, 129, 77);
+  }
+  th,.td1 {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid;
+    
+  }
+  
+.tr1:hover {background-color: rgb(213, 86, 40);}
+.tr1:nth-child(even) {
+    background-color:coral;
+  }
+
+  .td1:hover {
+    color: #c23616; /* Change text color on hover */
+  }
+  
+  th:hover {
+    border: 2px solid #333; /* Add a border to headers on hover */
+  }
+  
+   .center {
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid;
+    background-color:burlywood;
+
+  }
+  /* forms*/
+
+ .book{
+  margin-left:230px;
+  margin-top: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+
+
+
+
+ 
+input[type="text"],
+select {
+    width: 590px;
+    color:black;
+    padding: 10px; /* Add padding for better visual appearance */
+    margin-bottom: 10px; 
+    border-radius: 4px;
+    /* Add margin for spacing between elements */
+}
+
+/* Style the submit button */
+input[type="button"] {
+    background-color: #9cf7a9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;}
+    .fom{
+      background-color:white;
+
+    }
+  .f-img{
+    background-color:rgb(245, 241, 241);
+    border:1px solid rgb(17, 17, 16);
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+    max-width: 700px;
+  }
+  input[type="submit"] {
+    background-color: #9cf7a9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;}
+
+
+
+
+
+
+  /*rest*/
+  
+  .br2{
+  
+    background-color:rgb(194, 182, 136);
+  }
+
+  .rest{
+    text-align: center;
+  }
+  .ITALIANd{
+    text-align: center;
+    
+  }
+  .thaaid{
+    text-align: center;
+  }
+  
+  .indiand{
+    text-align: center;
+  }
+  .hell{
+    text-align:left;
+  }
+ .co {
+  border-radius: 5px;
+ }
+
+
+
+
+
+  /*adventure*/
+  .map{
+    opacity: 0.8;
+  }
+  .sky{
+    width: 350px;
+    height: 300px;
+    
+  }
+  .adv1{
+    padding-left: 100px;
+    padding-top: 90px;
+  }
+
+
+  .td2{
+    
+      font-size: 18px;
+      justify-content: center;
+      background-color:black;
+      opacity: 0.8;
+      color:aliceblue;
+      padding-right: 50px;
+      padding-left: 40px;
+      margin-right: 500px;
+      margin-right: 500px;
+      border-radius: 5px;
+      position: absolute;
+      margin-top:100px;
+      left: 30%;
+      top: 90%;
+      
+  }
+  th,td{
+    padding: 15px;
+    text-align: left;}
+   
+    @media screen and (max-width: 768px) {
+
+  .mid,.logo, .home,.nav_links,.nav,.nav_links li,.intro,.home2,.mid,.h3,.help,.help,.help1,.cent,.h1,.intro,.footernav1 ul li a,.footernav1 ul,.footerbottom1,.footcontainer1,.footcontainer,.footernav ul li a,.footernav ul,.footerbottom,.co,.ro::after,.branch,.br1,.br, th,.td1,.tr1:hover,.tr1:nth-child(even),.td1:hover, th:hover, .center,.fom,.f-img,.br2,.rest,.ITALIANd,.thaaid,.indiand,.hell,.map,.sky,.td2,th,td,input[type="button"],input[type="text"],th,.td1{
+          max-width: 100%; 
+          height:auto;
+  }
+    }
+    @media screen and (max-width: 768px) {
+      .background-clip,.bgMain{max-width: 100%; 
+      height:auto;
+
+      position: absolute;
+      top:2px;
+}
+    }
+
+
+    
+
+    

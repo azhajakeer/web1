@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>RAAZ</title>
+     <link rel="stylesheet" href="3style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="description" content="This is all about RAAZ">
+    <meta name="keywords" content="html,css,ECMAScript">
+    <meta name="aurtor" content="Azha jakeer"> -->
+   
+</head>
+
+<nav class="mainNav">
+    <img class="logo" src="logo.png" alt="logo">
+    <ul class= "nav_links">
+     <li class="active"><a href="index.html"><b>Home</b></a></li>
+     <li class="active"><a href="branches.html"><b>Branches</b></a></li>
+     <li class="active"><a href="adventure.html"><b>Adventure</b></a></li>
+     <li class="active"><a href="restaurants.html"><b>Restaurants</b></a></li>
+     <li class="active"><a href="event1.html"><b>Event 1</b></a></li>
+     <li class="active"><a href="event2.html"><b>Event 2</b></a></li>
+    <li class="active"><a href="book.html"><b>Booking</b></a></li>
+    
+        </ul>
+ </nav>
+      <!--Navigation bar-->
+
+          <!--Navigation bar-->
+    </nav>
+       </div>
+                 
+       <body class="fom">
+        <h1>Hotel Booking</h1>
+        <div class="fdec">
+        <form id="hotelForm">
+            First name:<br> <input type="text" name="firstName" id ="firstName"   pattern="^[a-zA-Z]+$" required>
+            <br>
+            Last name:<br> <input type="text" name="lastName" id= "lastName"   pattern="^[a-zA-Z]+$"required><br>
+            Email: <br><input type="email" name="email" required><br>
+            Phone number:<br> <input type="tel" name="phone"   minlength="10"  maxlength="10"  ><br>
+            Room choice: <br>
+            
+            <select name="roomType"  class="slct">
+                <option value="single">Single - 25000 LKR</option>
+                <option value="double">Double - 35000 LKR</option>
+                <option value="triple">Triple - 40000 LKR</option>
+            </select><br>
+    
+            Stay duration:<br> <input type="number" name="stayDuration" min="1" value="1" required><br>days
+            Check-in date:<br> <input type="date" name="checkInDate"id="checkInDateField" required><br>
+            Check-out date:<br> <input type="date" name="checkOutDate" id="checkOutDateField" required>
+            <br>
+    
+            Number of rooms:<br> <input type="number" name="numberOfRooms" min="1" value="1"required><br>
+            Number of adults:<br> <input type="number" name="adults" min="1" value="1" required><br>
+            Number of children:<br> <input type="number" name="children" min="0" value="0"><br>
+            Extra bed: <input type="checkbox" name="extraBed"><br>
+            
+            Extra requirements: 
+            <input type="checkbox" name="wifi"> WiFi
+            <input type="checkbox" name="poolView"> Pool View
+            <input type="checkbox" name="gardenView"> Garden View<br>
+            <br>
+    
+            Promo code:<br> <input type="text" name="promoCode"><br>
+            <button type="submit">Book Now</button>
+            <button id="checkLoyalty">Check Loyalty Points</button>
+            <h2>Your Loyalty Points</h2>
+            <div id="loyaltyPoints"></div>
+        </form>
+    </div>
+    <br>
+            <!-- Button to Show Diving Booking Form -->
+    <button id="bookDiving" class="btn2">Book Diving Adventure</button>
+    
+    <!-- Diving Booking Form (Initially Hidden) -->
+    
+    <div id="divingForm" style="display:none;">
+        <form id="divingBookingForm" >
+            <div class="fdec">
+            <label>
+              local:  <input type="radio" name="customerType" value="local" checked>
+            </label>
+            <label>
+                Foreign:<input type="radio" name="customerType" value="foreign">
+            </label><br>
+            Number of Adults:<br> <input type="number" name="adultsForDiving" min="1" value="1"><br>
+            Number of Kids: <br><input type="number" name="kidsForDiving" min="0" value="0"><br>
+            <label>
+                Need a guide? <br><input type="checkbox" name="needGuide">
+            </label><br>
+            <button type="submit">Confirm Diving Booking</button>
+        </form>
+    </div>
+</div>
+    
+        <!-- Display Area for Diving Booking Summary -->
+        <h2>Your Diving Booking</h2>
+        <div id="divingBookingDetails"></div>
+    
+        <!-- i Booking Form -->
+        <h2>Your Booking</h2>
+        <div id="bookingDetails" class="tab"></div>
+    
+        <button id="addToFavorites" class="btn2">Add to Favorites</button>
+        <h2>Your Favorite Booking</h2>
+        <div id="favoriteDetails"></div>
+    
+        <script src="script.js"></script>
+</div> 
+       
+
+                    
+     
+
+        <!-- Footer Section -->
+        <div class="footcontainer1">
+        <footer>
+           
+            <div class="footernav1">
+                <div class="footerbottom1">
+              
+              
+              
+                <p><b>HAPPY HOURE WITH THE RAAZ:</b></p>
+            </div>
+            </div>
+          
+        </footer>
+    </div>
+    </body>
+</html>
